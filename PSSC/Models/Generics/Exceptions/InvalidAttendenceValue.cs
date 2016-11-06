@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Models.Generics.Exceptions
 {
-    public class InvalidCreditsValue : Exception
+    class InvalidAttendenceValue:Exception
     {
-        public InvalidCreditsValue(string message) : base(message)
+        public InvalidAttendenceValue(string message):base(message)
         {
-
+ 
         }
     }
 }

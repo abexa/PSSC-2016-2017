@@ -13,7 +13,6 @@ namespace Models.Professor
     {
         private List<Subject.Subject> _subjects;
         public ReadOnlyCollection<Subject.Subject> AllSubjects { get { return _subjects.AsReadOnly(); } }
-
         public Subjects(List<Subject.Subject> subjects)
         {
             _subjects = subjects;

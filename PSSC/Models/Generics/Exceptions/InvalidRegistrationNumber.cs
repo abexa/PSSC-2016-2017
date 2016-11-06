@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Models.Generics.Exceptions
 {
-    public class InvalidCreditsValue : Exception
+    public class InvalidRegistrationNumber:Exception
     {
-        public InvalidCreditsValue(string message) : base(message)
+        public InvalidRegistrationNumber(string message) : base(message)
         {
 
         }
